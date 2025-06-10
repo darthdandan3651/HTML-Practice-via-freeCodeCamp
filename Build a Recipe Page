@@ -7,7 +7,8 @@
   <body>
     <h1>Chocolate Chip Cookies</h1>
     <p>This recipe will cover making delicous chocolate chip cookies</p>
-    <h2>Ingrediants</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/recipe.jpg" alt="Picture of some of the ingredients">
+    <h2>Ingredients</h2>
     <ul>
       <li>1 cup all-purpose flour</li>
       <li>1/2 teaspoon baking soda</li>
@@ -27,12 +28,3 @@
     </ol>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
