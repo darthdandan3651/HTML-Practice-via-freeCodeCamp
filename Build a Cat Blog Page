@@ -2,16 +2,13 @@
 <html lang="en">
   <head>
     <title>Mr. Whiskers' Blog</title>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
   </head>
   <body>
     <header>
       <h1>Welcome to Mr. Whiskers' Blog Page!</h1>
       <figure>
-        <img
-          src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"
-          alt="a cat peacefully sleeping"
-        />
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg" alt="a cat peacefully sleeping">
         <figcaption>Mr. Whiskers Sleeping</figcaption>
       </figure>
       <nav>
@@ -34,7 +31,6 @@
       </section>
       <section id="posts">
         <h2>Posts</h2>
-
         <article>
           <h3>Mr. Whiskers' First Day Home</h3>
           <p>
