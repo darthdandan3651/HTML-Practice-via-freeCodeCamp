@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label" for="name-label">Please enter your name:</label> 
+      <input required id="name" placeholder="John Doe" type="text">
+      <br> </br>
+      <label id="email-label" for="email-label">Please enter your email:</label>
+      <input required placeholder="example@email.com" id="email" type="email">
+      <br> </br>
+      <label id="number-label" for="age-label">Please enter your age:</label>
+      <input id="number" placeholder="19" type="number" min="3" max="100">
+      <br> </br>
+      <label for="dropdown">How do you like the website?</label>
+      <select name="dropdown" id="dropdown">
+        <option value="poor">Poor</option>
+        <option value="satisfactory">Satisfactory</option>
+        <option value="good">Good</option>
+        <option value="very-good">Very Good</option>
+        <option selected value="excellent">Excellent</option>
+      </select>
+      <br> </br>
+      <legend>Is this your first coding language?</legend>
+      <label for="yes-option">Yes</label>
+      <input id="yes-option" type="radio" name="coding-question" value="HTML">
+      <label for="no-option">No</label>
+      <input id="no-option" type="radio" name="coding-question" value="HTML">
+      <br> </br>
+      <legend>Select all the coding languages you know from this list:</legend>
+      <label for="html">HTML</label>
+      <input type="checkbox" id="html" name="html" value="html">
+      <label for="css">CSS</label>
+      <input type="checkbox" id="css" name="css" value="css">
+      <label for="javascript">JavaScript</label>
+      <input type="checkbox" id="javascript" name="javascript" value="javascript">
+      <br> </br>
+      <label for="comments">Other Comments?</label>
+      <br> </br>
+      <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+      <br> </br>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
